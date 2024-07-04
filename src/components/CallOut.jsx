@@ -14,7 +14,7 @@ const CallOut = () => {
     borderRadius: '24px',
   };
   return (
-    <div style={callOutStyle}>
+    <div style={callOutStyle} className="mt-40">
       <div className="flex justify-between items-center">
         <div className="translate-y-24 ml-14">
           <h2 className="text-4xl font-semibold mb-6 leading-relaxed">

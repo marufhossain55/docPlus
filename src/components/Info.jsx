@@ -7,7 +7,7 @@ import people from '../assets/people.png';
 
 const info = () => {
   return (
-    <div>
+    <div className="mt-10">
       <div>
         <h2 className="text-center  text-5xl font-semibold translate-y-[85px]">
           Comprehensive Care <br />

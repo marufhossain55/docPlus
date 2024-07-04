@@ -5,14 +5,15 @@ import Rectangle27 from '../assets/Rectangle27.png';
 
 const Service = () => {
   return (
-    <div className="bg-[#FFFFF5] p-10 rounded-2xl grid grid-cols-2 gap-7 gap-y-16">
+    <div className="bg-[#FFFFF5] p-10 rounded-2xl grid grid-cols-2 gap-7 gap-y-16 -mt-10">
       <div>
         <div>
           <h2 className="w-[139px] h-[44px] border rounded-3xl flex justify-center items-center bg-[#fbfbfb] font mb-4">
             Service
           </h2>
           <h1 className="text-4xl text-[#020043] font-semibold mb-4">
-            Online Doctor Meet
+            Empowering Health,
+            <br /> Enriching Lives
           </h1>
           <p className="w-[470px] mb-16">
             We are committed to providing high-quality, compassionate care to
@@ -105,7 +106,7 @@ const Service = () => {
                   techniques, which <br /> allow for greater precision
                 </p>
               </div>
-              <div className="flex flex-col justify-end mt-16">
+              <div className="flex flex-col justify-end mt-16 mr-4">
                 <button className="rounded-full text-white p-2 bg-yellow-400">
                   <GoArrowUpRight style={{ fontSize: '28px' }} />
                 </button>

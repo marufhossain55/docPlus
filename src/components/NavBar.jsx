@@ -3,7 +3,7 @@ import logo from '../assets/logo_dark.png';
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center ">
+    <div className="flex justify-between items-center pt-10">
       <div>
         <img src={logo} alt="docPlus" />
       </div>

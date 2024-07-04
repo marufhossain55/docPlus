@@ -3,7 +3,7 @@ import Rectangle24 from '../assets/Rectangle24.png';
 
 const WhoWeAre = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between mt-40">
       <div>
         <h2 className="w-[139px] h-[44px] border rounded-3xl flex justify-center items-center bg-[#FFFFF5] font mb-4">
           Who we are

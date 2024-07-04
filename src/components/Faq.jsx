@@ -3,14 +3,14 @@ import { IoIosArrowDown } from 'react-icons/io';
 const Faq = () => {
   return (
     <div>
-      <h2 className="w-[139px] h-[44px] border rounded-3xl flex justify-center items-center bg-[#FBFBFB] font mb-4">
+      <h2 className="w-[139px] h-[44px] border rounded-3xl flex justify-center items-center bg-[#FBFBFB] font mb-4 mt-40">
         Faq
       </h2>
       <h1 className="text-4xl text-[#020043] font-semibold mb-4">
         Frequntly Asked Question
       </h1>
-      <section className="w-full divide-y divide-slate-200 rounded bg-white shadow-md shadow-slate-200">
-        <details className="group p-4 " open>
+      <section className="w-full  divide-slate-200 rounded bg-white shadow-md shadow-slate-200">
+        <details className="group p-4 mt-3 " open>
           <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden bg-[#FFFFF5] ">
             What are your office hours?
             <svg
@@ -40,7 +40,7 @@ const Faq = () => {
             clinic for specific hours.
           </p>
         </details>
-        <details className="group p-4 bg-[#FFFFF5]">
+        <details className="group p-4 bg-[#FFFFF5] mt-3">
           <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
             How can I schedule an appointment?
             <IoIosArrowDown className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45" />
@@ -52,18 +52,20 @@ const Faq = () => {
             navigation with a "new" badge next to their name.
           </p>
         </details>
-        <details className="group p-4 bg-[#FFFFF5]">
-          <summary className="bg-[#FFFFF5]relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
+        <details className="group p-4 bg-[#FFFFF5] mt-3">
+          <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
             Do you accept insurance?
             <IoIosArrowDown className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45" />
           </summary>
           <p className="mt-4 text-slate-500">
-            All updated components will be accompanied by an "updated" badge.
-            YOu will be able to see that on our main components page as well as
-            our side navigation.
+            You will always get notified about new components through our
+            discord and other social accounts. You can also see the newest
+            components on the main component page as well as the websites side
+            navigation with a "new" badge next to their name.
           </p>
         </details>
-        <details className="group p-4 bg-[#FFFFF5] ">
+
+        <details className="group p-4 bg-[#FFFFF5] mt-3 ">
           <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
             What should I bring to my appointment?
             <IoIosArrowDown className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45" />
@@ -73,9 +75,9 @@ const Faq = () => {
             our newsletter and our social accounts.
           </p>
         </details>
-        <details className="group p-4 bg-[#FFFFF5] ">
+        <details className="group p-4 bg-[#FFFFF5] mt-3 ">
           <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
-            What should I bring to my appointment?
+            Do you offer telemedicine appointments?
             <IoIosArrowDown className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45" />
           </summary>
           <p className="mt-4 text-slate-500">

@@ -2,12 +2,13 @@ import { TiStarFullOutline } from 'react-icons/ti';
 import person1 from '../assets/person1.png';
 import person2 from '../assets/person2.png';
 import person3 from '../assets/person3.png';
+import navigation from '../assets/navigation.png';
 
 const Testimonial = () => {
   return (
     <div>
       <div>
-        <h2 className="w-[139px] h-[44px] border rounded-3xl flex justify-center items-center bg-[#FBFBFB] font mb-4">
+        <h2 className="w-[139px] h-[44px] border rounded-3xl flex justify-center items-center bg-[#FBFBFB] font mb-4 mt-40">
           Testimonial
         </h2>
       </div>
@@ -123,6 +124,9 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center mt-6">
+        <img src={navigation} alt="navigation" />
       </div>
     </div>
   );
