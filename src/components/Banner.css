@@ -1,8 +1,8 @@
 .banner-container {
   background: linear-gradient(
-    179.57deg,
-    rgba(0, 193, 157, 0) -25.412%,
-    rgba(2, 0, 67, 0.47) 107.111%
+    90deg,
+    rgba(2, 0, 67, 1),
+    rgba(2, 0, 67, 0.3) 100%
   );
   border-radius: 48px;
 }
